@@ -10,7 +10,7 @@ public class Produs implements Icomparable {
 	}
 
 	@Override
-	public int getNumarProduse() {
+	public int getNumarProdus() {
 		// TODO Auto-generated method stub
 		return numarProduse;	
 	}
