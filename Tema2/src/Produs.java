@@ -1,5 +1,5 @@
 
-public class Produs  {
+public class Produs implements Icomparable {
 	private String denumireProdus;
 	private int numarProduse;
 	
@@ -7,6 +7,12 @@ public class Produs  {
 		super();
 		this.denumireProdus = denumireProdus;
 		this.numarProduse = numarProduse;
+	}
+
+	@Override
+	public int getNumarProduse() {
+		// TODO Auto-generated method stub
+		return numarProduse;	
 	}
 
 
