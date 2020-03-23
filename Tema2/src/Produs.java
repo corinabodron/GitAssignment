@@ -1,5 +1,5 @@
 
-public class Produs implements Icomparable {
+public class Produs  {
 	private String denumireProdus;
 	private int numarProduse;
 	
@@ -10,10 +10,6 @@ public class Produs implements Icomparable {
 	}
 
 
-	@Override
-	public int  getNumarProduse() {		     
-	return numarProduse;	   
-	}
 	
 	
 }
