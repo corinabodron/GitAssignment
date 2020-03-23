@@ -6,7 +6,7 @@ public class TestGit {
 				+ "Solutii informatice pentru analiza datelor in domeniul vanzarii");
       
 		Produs produs= new Produs("Aspirator201",45);
-		System.out.println(produs.getNumarProduse());
+		System.out.println(produs.getNumarProdus());
 	}
 
 }
