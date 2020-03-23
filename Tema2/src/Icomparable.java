@@ -1,6 +1,6 @@
 
 public interface Icomparable {
 	
-	public abstract int getNumarProduse();
+	public abstract int getNumarProdus();
 
 }
